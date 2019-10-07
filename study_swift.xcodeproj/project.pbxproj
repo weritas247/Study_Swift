@@ -8,24 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		DB0601102348A6AF00870186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06010F2348A6AF00870186 /* AppDelegate.swift */; };
-		DB0601152348A6AF00870186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601132348A6AF00870186 /* Main.storyboard */; };
+		DB0601152348A6AF00870186 /* ARC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601132348A6AF00870186 /* ARC.storyboard */; };
 		DB0601172348A6B100870186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0601162348A6B100870186 /* Assets.xcassets */; };
 		DB06011A2348A6B100870186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601182348A6B100870186 /* LaunchScreen.storyboard */; };
 		DB06012B2348E75600870186 /* ExampleARC01VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601282348E75600870186 /* ExampleARC01VC.swift */; };
 		DB06012C2348E75600870186 /* ExampleARC02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601292348E75600870186 /* ExampleARC02VC.swift */; };
 		DB06012D2348E75600870186 /* ExampleARC03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06012A2348E75600870186 /* ExampleARC03VC.swift */; };
+		DB0601302349B50200870186 /* ExampleGCD01VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06012F2349B50200870186 /* ExampleGCD01VC.swift */; };
+		DB0601322349B51100870186 /* GCD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601312349B51100870186 /* GCD.storyboard */; };
+		DB0601892349D7A700870186 /* raywenderlich.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601882349D7A700870186 /* raywenderlich.storyboard */; };
+		DB0601992349D80D00870186 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018A2349D80D00870186 /* PhotoCollectionViewCell.swift */; };
+		DB06019A2349D80D00870186 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018B2349D80D00870186 /* PhotoDetailViewController.swift */; };
+		DB06019B2349D80D00870186 /* CheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018C2349D80D00870186 /* CheckMark.swift */; };
+		DB06019C2349D80D00870186 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018D2349D80D00870186 /* PhotoManager.swift */; };
+		DB06019D2349D80D00870186 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018E2349D80D00870186 /* UIImage+Resize.swift */; };
+		DB06019E2349D80D00870186 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018F2349D80D00870186 /* Photo.swift */; };
+		DB06019F2349D80D00870186 /* AssetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601902349D80D00870186 /* AssetsCollectionViewController.swift */; };
+		DB0601A12349D80D00870186 /* SelectedAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601922349D80D00870186 /* SelectedAssets.swift */; };
+		DB0601A22349D80D00870186 /* UIImage+RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601932349D80D00870186 /* UIImage+RoundedCorner.swift */; };
+		DB0601A32349D80D00870186 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601942349D80D00870186 /* PhotoCollectionViewController.swift */; };
+		DB0601A42349D80D00870186 /* UIImage+Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601952349D80D00870186 /* UIImage+Alpha.swift */; };
+		DB0601A52349D80D00870186 /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601962349D80D00870186 /* AlbumsTableViewController.swift */; };
+		DB0601A62349D80D00870186 /* AssetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601972349D80D00870186 /* AssetCollectionViewCell.swift */; };
+		DB0601A72349D80D00870186 /* AssetPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0601982349D80D00870186 /* AssetPickerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB06010C2348A6AF00870186 /* study_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB06010F2348A6AF00870186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB0601142348A6AF00870186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB0601142348A6AF00870186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ARC.storyboard; sourceTree = "<group>"; };
 		DB0601162348A6B100870186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0601192348A6B100870186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB06011B2348A6B100870186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB0601282348E75600870186 /* ExampleARC01VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleARC01VC.swift; sourceTree = "<group>"; };
 		DB0601292348E75600870186 /* ExampleARC02VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleARC02VC.swift; sourceTree = "<group>"; };
 		DB06012A2348E75600870186 /* ExampleARC03VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleARC03VC.swift; sourceTree = "<group>"; };
+		DB06012F2349B50200870186 /* ExampleGCD01VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGCD01VC.swift; sourceTree = "<group>"; };
+		DB0601312349B51100870186 /* GCD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GCD.storyboard; sourceTree = "<group>"; };
+		DB0601882349D7A700870186 /* raywenderlich.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = raywenderlich.storyboard; sourceTree = "<group>"; };
+		DB06018A2349D80D00870186 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB06018B2349D80D00870186 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		DB06018C2349D80D00870186 /* CheckMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMark.swift; sourceTree = "<group>"; };
+		DB06018D2349D80D00870186 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		DB06018E2349D80D00870186 /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		DB06018F2349D80D00870186 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		DB0601902349D80D00870186 /* AssetsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsCollectionViewController.swift; sourceTree = "<group>"; };
+		DB0601922349D80D00870186 /* SelectedAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedAssets.swift; sourceTree = "<group>"; };
+		DB0601932349D80D00870186 /* UIImage+RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RoundedCorner.swift"; sourceTree = "<group>"; };
+		DB0601942349D80D00870186 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		DB0601952349D80D00870186 /* UIImage+Alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Alpha.swift"; sourceTree = "<group>"; };
+		DB0601962349D80D00870186 /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		DB0601972349D80D00870186 /* AssetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB0601982349D80D00870186 /* AssetPickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetPickerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				DB06010F2348A6AF00870186 /* AppDelegate.swift */,
+				DB06012E2349B4F000870186 /* GCD */,
 				DB0601212348C99700870186 /* ARC */,
-				DB0601132348A6AF00870186 /* Main.storyboard */,
 				DB0601162348A6B100870186 /* Assets.xcassets */,
 				DB0601182348A6B100870186 /* LaunchScreen.storyboard */,
 				DB06011B2348A6B100870186 /* Info.plist */,
@@ -71,11 +105,44 @@
 		DB0601212348C99700870186 /* ARC */ = {
 			isa = PBXGroup;
 			children = (
+				DB0601132348A6AF00870186 /* ARC.storyboard */,
 				DB0601282348E75600870186 /* ExampleARC01VC.swift */,
 				DB0601292348E75600870186 /* ExampleARC02VC.swift */,
 				DB06012A2348E75600870186 /* ExampleARC03VC.swift */,
 			);
 			path = ARC;
+			sourceTree = "<group>";
+		};
+		DB06012E2349B4F000870186 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				DB0601872349D77F00870186 /* raywenderlich */,
+				DB06012F2349B50200870186 /* ExampleGCD01VC.swift */,
+				DB0601312349B51100870186 /* GCD.storyboard */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		DB0601872349D77F00870186 /* raywenderlich */ = {
+			isa = PBXGroup;
+			children = (
+				DB0601962349D80D00870186 /* AlbumsTableViewController.swift */,
+				DB0601972349D80D00870186 /* AssetCollectionViewCell.swift */,
+				DB0601982349D80D00870186 /* AssetPickerDelegate.swift */,
+				DB0601902349D80D00870186 /* AssetsCollectionViewController.swift */,
+				DB06018C2349D80D00870186 /* CheckMark.swift */,
+				DB06018F2349D80D00870186 /* Photo.swift */,
+				DB06018A2349D80D00870186 /* PhotoCollectionViewCell.swift */,
+				DB0601942349D80D00870186 /* PhotoCollectionViewController.swift */,
+				DB06018B2349D80D00870186 /* PhotoDetailViewController.swift */,
+				DB06018D2349D80D00870186 /* PhotoManager.swift */,
+				DB0601922349D80D00870186 /* SelectedAssets.swift */,
+				DB0601952349D80D00870186 /* UIImage+Alpha.swift */,
+				DB06018E2349D80D00870186 /* UIImage+Resize.swift */,
+				DB0601932349D80D00870186 /* UIImage+RoundedCorner.swift */,
+				DB0601882349D7A700870186 /* raywenderlich.storyboard */,
+			);
+			path = raywenderlich;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +205,9 @@
 			files = (
 				DB06011A2348A6B100870186 /* LaunchScreen.storyboard in Resources */,
 				DB0601172348A6B100870186 /* Assets.xcassets in Resources */,
-				DB0601152348A6AF00870186 /* Main.storyboard in Resources */,
+				DB0601152348A6AF00870186 /* ARC.storyboard in Resources */,
+				DB0601892349D7A700870186 /* raywenderlich.storyboard in Resources */,
+				DB0601322349B51100870186 /* GCD.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,22 +218,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0601A22349D80D00870186 /* UIImage+RoundedCorner.swift in Sources */,
 				DB0601102348A6AF00870186 /* AppDelegate.swift in Sources */,
+				DB06019F2349D80D00870186 /* AssetsCollectionViewController.swift in Sources */,
+				DB0601302349B50200870186 /* ExampleGCD01VC.swift in Sources */,
 				DB06012D2348E75600870186 /* ExampleARC03VC.swift in Sources */,
+				DB0601A62349D80D00870186 /* AssetCollectionViewCell.swift in Sources */,
+				DB06019D2349D80D00870186 /* UIImage+Resize.swift in Sources */,
+				DB06019C2349D80D00870186 /* PhotoManager.swift in Sources */,
+				DB06019B2349D80D00870186 /* CheckMark.swift in Sources */,
+				DB0601A72349D80D00870186 /* AssetPickerDelegate.swift in Sources */,
+				DB0601A12349D80D00870186 /* SelectedAssets.swift in Sources */,
+				DB06019A2349D80D00870186 /* PhotoDetailViewController.swift in Sources */,
+				DB0601A32349D80D00870186 /* PhotoCollectionViewController.swift in Sources */,
+				DB06019E2349D80D00870186 /* Photo.swift in Sources */,
+				DB0601A52349D80D00870186 /* AlbumsTableViewController.swift in Sources */,
+				DB0601A42349D80D00870186 /* UIImage+Alpha.swift in Sources */,
 				DB06012B2348E75600870186 /* ExampleARC01VC.swift in Sources */,
 				DB06012C2348E75600870186 /* ExampleARC02VC.swift in Sources */,
+				DB0601992349D80D00870186 /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB0601132348A6AF00870186 /* Main.storyboard */ = {
+		DB0601132348A6AF00870186 /* ARC.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DB0601142348A6AF00870186 /* Base */,
 			);
-			name = Main.storyboard;
+			name = ARC.storyboard;
 			sourceTree = "<group>";
 		};
 		DB0601182348A6B100870186 /* LaunchScreen.storyboard */ = {

@@ -1,0 +1,10 @@
+
+// https://www.raywenderlich.com/960290-ios-unit-testing-and-ui-testing-tutorial
+
+
+This tutorial will show you:
+
+- How to use Xcode’s Test navigator to test an app’s model and asynchronous methods
+- How to fake interactions with library or system objects by using stubs and mocks
+- How to test UI and performance
+- How to use the code coverage tool

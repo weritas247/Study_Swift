@@ -16,7 +16,7 @@
 		DB06012D2348E75600870186 /* ExampleARC03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06012A2348E75600870186 /* ExampleARC03VC.swift */; };
 		DB0601302349B50200870186 /* ExampleGCD01VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06012F2349B50200870186 /* ExampleGCD01VC.swift */; };
 		DB0601322349B51100870186 /* GCD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601312349B51100870186 /* GCD.storyboard */; };
-		DB0601892349D7A700870186 /* raywenderlich.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601882349D7A700870186 /* raywenderlich.storyboard */; };
+		DB0601892349D7A700870186 /* GooglyPuff.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601882349D7A700870186 /* GooglyPuff.storyboard */; };
 		DB0601992349D80D00870186 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018A2349D80D00870186 /* PhotoCollectionViewCell.swift */; };
 		DB06019A2349D80D00870186 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018B2349D80D00870186 /* PhotoDetailViewController.swift */; };
 		DB06019B2349D80D00870186 /* CheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06018C2349D80D00870186 /* CheckMark.swift */; };
@@ -41,16 +41,12 @@
 		DB790B28234D976D00FA8D86 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B22234D976D00FA8D86 /* Track.swift */; };
 		DB790B29234D976D00FA8D86 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B23234D976D00FA8D86 /* Download.swift */; };
 		DB790B2A234D976D00FA8D86 /* HalfTunes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB790B24234D976D00FA8D86 /* HalfTunes.storyboard */; };
-		DB790B4D234D9C9A00FA8D86 /* HalfTunesSlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B4C234D9C9A00FA8D86 /* HalfTunesSlowTests.swift */; };
-		DB790B61234DCADF00FA8D86 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB790B60234DCADF00FA8D86 /* Info.plist */; };
-		DB790B65234DCCE300FA8D86 /* raywenderlich in Resources */ = {isa = PBXBuildFile; fileRef = DB790B64234DCCE300FA8D86 /* raywenderlich */; };
-		DB790B6D234DD52000FA8D86 /* HalfTunesFakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B6C234DD52000FA8D86 /* HalfTunesFakeTests.swift */; };
-		DB790B78234DDAAA00FA8D86 /* abbaData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB790B77234DDAAA00FA8D86 /* abbaData.json */; };
-		DB790B79234DDADF00FA8D86 /* abbaData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB790B77234DDAAA00FA8D86 /* abbaData.json */; };
 		DB790B7B234E059D00FA8D86 /* BullsEyeMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B7A234E059D00FA8D86 /* BullsEyeMockTests.swift */; };
-		DB790B7E234E0D6700FA8D86 /* GooglyPuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B7D234E0D6700FA8D86 /* GooglyPuffTests.swift */; };
-		DB790B7F234E0D6700FA8D86 /* GooglyPuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B7D234E0D6700FA8D86 /* GooglyPuffTests.swift */; };
-		DB790B82234E0D7400FA8D86 /* GooglyPuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B81234E0D7400FA8D86 /* GooglyPuffTests.swift */; };
+		DB790BB7234E327700FA8D86 /* HalfTunesFakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B94234E2C5000FA8D86 /* HalfTunesFakeTests.swift */; };
+		DB790BB8234E328700FA8D86 /* HalfTunesSlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B4C234D9C9A00FA8D86 /* HalfTunesSlowTests.swift */; };
+		DB790BC7234E330A00FA8D86 /* GooglyPuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB790B81234E0D7400FA8D86 /* GooglyPuffTests.swift */; };
+		DB790BC9234E33A200FA8D86 /* abbaData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB790BC8234E33A200FA8D86 /* abbaData.json */; };
+		DB790BCA234E33BA00FA8D86 /* abbaData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB790BC8234E33A200FA8D86 /* abbaData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +58,13 @@
 			remoteInfo = study_swift;
 		};
 		DB790B6F234DD52000FA8D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0601042348A6AF00870186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB06010B2348A6AF00870186;
+			remoteInfo = study_swift;
+		};
+		DB790BC2234E32D900FA8D86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DB0601042348A6AF00870186 /* Project object */;
 			proxyType = 1;
@@ -81,7 +84,7 @@
 		DB06012A2348E75600870186 /* ExampleARC03VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleARC03VC.swift; sourceTree = "<group>"; };
 		DB06012F2349B50200870186 /* ExampleGCD01VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGCD01VC.swift; sourceTree = "<group>"; };
 		DB0601312349B51100870186 /* GCD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GCD.storyboard; sourceTree = "<group>"; };
-		DB0601882349D7A700870186 /* raywenderlich.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = raywenderlich.storyboard; sourceTree = "<group>"; };
+		DB0601882349D7A700870186 /* GooglyPuff.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GooglyPuff.storyboard; sourceTree = "<group>"; };
 		DB06018A2349D80D00870186 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		DB06018B2349D80D00870186 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		DB06018C2349D80D00870186 /* CheckMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMark.swift; sourceTree = "<group>"; };
@@ -113,12 +116,15 @@
 		DB790B60234DCADF00FA8D86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB790B64234DCCE300FA8D86 /* raywenderlich */ = {isa = PBXFileReference; lastKnownFileType = text; path = raywenderlich; sourceTree = "<group>"; };
 		DB790B6A234DD52000FA8D86 /* HalfTunesFakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalfTunesFakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB790B6C234DD52000FA8D86 /* HalfTunesFakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfTunesFakeTests.swift; sourceTree = "<group>"; };
-		DB790B6E234DD52000FA8D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB790B77234DDAAA00FA8D86 /* abbaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abbaData.json; sourceTree = "<group>"; };
 		DB790B7A234E059D00FA8D86 /* BullsEyeMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BullsEyeMockTests.swift; path = study_swift/UnitTesting/BullsEye/BullsEyeTests/BullsEyeMockTests.swift; sourceTree = SOURCE_ROOT; };
-		DB790B7D234E0D6700FA8D86 /* GooglyPuffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GooglyPuffTests.swift; path = study_swift/GCD/GooglyPuff/GooglyPuffTests/GooglyPuffTests.swift; sourceTree = SOURCE_ROOT; };
 		DB790B81234E0D7400FA8D86 /* GooglyPuffTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglyPuffTests.swift; sourceTree = "<group>"; };
+		DB790B94234E2C5000FA8D86 /* HalfTunesFakeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfTunesFakeTests.swift; sourceTree = "<group>"; };
+		DB790BAA234E2EB000FA8D86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB790BAE234E2ECD00FA8D86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB790BB0234E2ED200FA8D86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB790BB2234E2ED900FA8D86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB790BBD234E32D800FA8D86 /* GooglyPuffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglyPuffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB790BC8234E33A200FA8D86 /* abbaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abbaData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB790BBA234E32D800FA8D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -160,6 +173,7 @@
 				DB06010C2348A6AF00870186 /* study_swift.app */,
 				DB790AE1234D098600FA8D86 /* BullsEyeTests.xctest */,
 				DB790B6A234DD52000FA8D86 /* HalfTunesFakeTests.xctest */,
+				DB790BBD234E32D800FA8D86 /* GooglyPuffTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				DB06010F2348A6AF00870186 /* AppDelegate.swift */,
-				DB790B0B234D973A00FA8D86 /* UITesting */,
 				DB790AF9234D8FC300FA8D86 /* UnitTesting */,
 				DB06012E2349B4F000870186 /* GCD */,
 				DB0601212348C99700870186 /* ARC */,
@@ -219,7 +232,7 @@
 				DB0601952349D80D00870186 /* UIImage+Alpha.swift */,
 				DB06018E2349D80D00870186 /* UIImage+Resize.swift */,
 				DB0601932349D80D00870186 /* UIImage+RoundedCorner.swift */,
-				DB0601882349D7A700870186 /* raywenderlich.storyboard */,
+				DB0601882349D7A700870186 /* GooglyPuff.storyboard */,
 			);
 			path = GooglyPuff;
 			sourceTree = "<group>";
@@ -248,23 +261,17 @@
 		DB790B06234D90D700FA8D86 /* BullsEyeTests */ = {
 			isa = PBXGroup;
 			children = (
+				DB790BB2234E2ED900FA8D86 /* Info.plist */,
 				DB790B7A234E059D00FA8D86 /* BullsEyeMockTests.swift */,
 				DB790B07234D90F800FA8D86 /* BullsEyeTests.swift */,
 			);
 			path = BullsEyeTests;
 			sourceTree = "<group>";
 		};
-		DB790B0B234D973A00FA8D86 /* UITesting */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UITesting;
-			sourceTree = "<group>";
-		};
 		DB790B1C234D976D00FA8D86 /* HalfTunes */ = {
 			isa = PBXGroup;
 			children = (
-				DB790B6B234DD52000FA8D86 /* HalfTunesFakeTests */,
+				DB790B93234E2C5000FA8D86 /* HalfTunesFakeTests */,
 				DB790B2D234D9A0800FA8D86 /* HalfTunesSlowTests */,
 				DB790B1D234D976D00FA8D86 /* Cells */,
 				DB790B21234D976D00FA8D86 /* Data Objects */,
@@ -297,27 +304,28 @@
 			isa = PBXGroup;
 			children = (
 				DB790B4C234D9C9A00FA8D86 /* HalfTunesSlowTests.swift */,
+				DB790BAE234E2ECD00FA8D86 /* Info.plist */,
 			);
 			path = HalfTunesSlowTests;
-			sourceTree = "<group>";
-		};
-		DB790B6B234DD52000FA8D86 /* HalfTunesFakeTests */ = {
-			isa = PBXGroup;
-			children = (
-				DB790B7D234E0D6700FA8D86 /* GooglyPuffTests.swift */,
-				DB790B6C234DD52000FA8D86 /* HalfTunesFakeTests.swift */,
-				DB790B77234DDAAA00FA8D86 /* abbaData.json */,
-				DB790B6E234DD52000FA8D86 /* Info.plist */,
-			);
-			path = HalfTunesFakeTests;
 			sourceTree = "<group>";
 		};
 		DB790B80234E0D7400FA8D86 /* GooglyPuffTests */ = {
 			isa = PBXGroup;
 			children = (
 				DB790B81234E0D7400FA8D86 /* GooglyPuffTests.swift */,
+				DB790BAA234E2EB000FA8D86 /* Info.plist */,
 			);
 			path = GooglyPuffTests;
+			sourceTree = "<group>";
+		};
+		DB790B93234E2C5000FA8D86 /* HalfTunesFakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB790B94234E2C5000FA8D86 /* HalfTunesFakeTests.swift */,
+				DB790BC8234E33A200FA8D86 /* abbaData.json */,
+				DB790BB0234E2ED200FA8D86 /* Info.plist */,
+			);
+			path = HalfTunesFakeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +384,24 @@
 			productReference = DB790B6A234DD52000FA8D86 /* HalfTunesFakeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DB790BBC234E32D800FA8D86 /* GooglyPuffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB790BC4234E32D900FA8D86 /* Build configuration list for PBXNativeTarget "GooglyPuffTests" */;
+			buildPhases = (
+				DB790BB9234E32D800FA8D86 /* Sources */,
+				DB790BBA234E32D800FA8D86 /* Frameworks */,
+				DB790BBB234E32D800FA8D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB790BC3234E32D900FA8D86 /* PBXTargetDependency */,
+			);
+			name = GooglyPuffTests;
+			productName = GooglyPuffTests;
+			productReference = DB790BBD234E32D800FA8D86 /* GooglyPuffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -397,6 +423,10 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = DB06010B2348A6AF00870186;
 					};
+					DB790BBC234E32D800FA8D86 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DB06010B2348A6AF00870186;
+					};
 				};
 			};
 			buildConfigurationList = DB0601072348A6AF00870186 /* Build configuration list for PBXProject "study_swift" */;
@@ -415,6 +445,7 @@
 				DB06010B2348A6AF00870186 /* study_swift */,
 				DB790AE0234D098600FA8D86 /* BullsEyeTests */,
 				DB790B69234DD52000FA8D86 /* HalfTunesFakeTests */,
+				DB790BBC234E32D800FA8D86 /* GooglyPuffTests */,
 			);
 		};
 /* End PBXProject section */
@@ -424,15 +455,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB790B61234DCADF00FA8D86 /* Info.plist in Resources */,
-				DB790B78234DDAAA00FA8D86 /* abbaData.json in Resources */,
 				DB790B05234D905E00FA8D86 /* BullsEyeGame.storyboard in Resources */,
 				DB06011A2348A6B100870186 /* LaunchScreen.storyboard in Resources */,
-				DB790B65234DCCE300FA8D86 /* raywenderlich in Resources */,
 				DB790B2A234D976D00FA8D86 /* HalfTunes.storyboard in Resources */,
 				DB0601172348A6B100870186 /* Assets.xcassets in Resources */,
 				DB0601152348A6AF00870186 /* ARC.storyboard in Resources */,
-				DB0601892349D7A700870186 /* raywenderlich.storyboard in Resources */,
+				DB790BC9234E33A200FA8D86 /* abbaData.json in Resources */,
+				DB0601892349D7A700870186 /* GooglyPuff.storyboard in Resources */,
 				DB0601322349B51100870186 /* GCD.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,7 +477,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB790B79234DDADF00FA8D86 /* abbaData.json in Resources */,
+				DB790BCA234E33BA00FA8D86 /* abbaData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB790BBB234E32D800FA8D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +519,6 @@
 				DB0601A42349D80D00870186 /* UIImage+Alpha.swift in Sources */,
 				DB06012B2348E75600870186 /* ExampleARC01VC.swift in Sources */,
 				DB06012C2348E75600870186 /* ExampleARC02VC.swift in Sources */,
-				DB790B82234E0D7400FA8D86 /* GooglyPuffTests.swift in Sources */,
 				DB0601992349D80D00870186 /* PhotoCollectionViewCell.swift in Sources */,
 				DB790B29234D976D00FA8D86 /* Download.swift in Sources */,
 			);
@@ -494,9 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB790B7B234E059D00FA8D86 /* BullsEyeMockTests.swift in Sources */,
-				DB790B7E234E0D6700FA8D86 /* GooglyPuffTests.swift in Sources */,
 				DB790B08234D90F800FA8D86 /* BullsEyeTests.swift in Sources */,
-				DB790B4D234D9C9A00FA8D86 /* HalfTunesSlowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,8 +537,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB790B6D234DD52000FA8D86 /* HalfTunesFakeTests.swift in Sources */,
-				DB790B7F234E0D6700FA8D86 /* GooglyPuffTests.swift in Sources */,
+				DB790BB7234E327700FA8D86 /* HalfTunesFakeTests.swift in Sources */,
+				DB790BB8234E328700FA8D86 /* HalfTunesSlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB790BB9234E32D800FA8D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB790BC7234E330A00FA8D86 /* GooglyPuffTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +562,11 @@
 			isa = PBXTargetDependency;
 			target = DB06010B2348A6AF00870186 /* study_swift */;
 			targetProxy = DB790B6F234DD52000FA8D86 /* PBXContainerItemProxy */;
+		};
+		DB790BC3234E32D900FA8D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB06010B2348A6AF00870186 /* study_swift */;
+			targetProxy = DB790BC2234E32D900FA8D86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -702,13 +748,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NXX55N99YY;
-				INFOPLIST_FILE = study_swiftTests/Info.plist;
+				INFOPLIST_FILE = study_swift/UnitTesting/BullsEye/BullsEyeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MaverickDevStudio.study-swiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = MaverickDevStudio.BullsEyeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -722,13 +768,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NXX55N99YY;
-				INFOPLIST_FILE = study_swiftTests/Info.plist;
+				INFOPLIST_FILE = study_swift/UnitTesting/BullsEye/BullsEyeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MaverickDevStudio.study-swiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = MaverickDevStudio.BullsEyeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -776,6 +822,46 @@
 			};
 			name = Release;
 		};
+		DB790BC5234E32D900FA8D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXX55N99YY;
+				INFOPLIST_FILE = study_swift/GCD/GooglyPuff/GooglyPuffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaverickDevStudio.GooglyPuffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/study_swift.app/study_swift";
+			};
+			name = Debug;
+		};
+		DB790BC6234E32D900FA8D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXX55N99YY;
+				INFOPLIST_FILE = study_swift/GCD/GooglyPuff/GooglyPuffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaverickDevStudio.GooglyPuffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/study_swift.app/study_swift";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -811,6 +897,15 @@
 			buildConfigurations = (
 				DB790B72234DD52000FA8D86 /* Debug */,
 				DB790B73234DD52000FA8D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB790BC4234E32D900FA8D86 /* Build configuration list for PBXNativeTarget "GooglyPuffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB790BC5234E32D900FA8D86 /* Debug */,
+				DB790BC6234E32D900FA8D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

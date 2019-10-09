@@ -68,6 +68,36 @@
                ReferencedContainer = "container:study_swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DB790B86234E2B7F00FA8D86"
+               BuildableName = "HalfTunesFakeTests1.xctest"
+               BlueprintName = "HalfTunesFakeTests1"
+               ReferencedContainer = "container:study_swift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DB790B9F234E2E6100FA8D86"
+               BuildableName = "aaaa.xctest"
+               BlueprintName = "aaaa"
+               ReferencedContainer = "container:study_swift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DB790BBC234E32D800FA8D86"
+               BuildableName = "GooglyPuffTests.xctest"
+               BlueprintName = "GooglyPuffTests"
+               ReferencedContainer = "container:study_swift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

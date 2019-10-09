@@ -1,14 +1,14 @@
 //
-//  GooglyPuffTests.swift
-//  GooglyPuffTests
+//  HalfTunesFakeTests1.swift
+//  HalfTunesFakeTests1
 //
-//  Created by MyMacBookPro on 10/10/2019.
+//  Created by MyMacBookPro on 09/10/2019.
 //  Copyright © 2019 Maverick DevStudioa. All rights reserved.
 //
 
 import XCTest
 
-class GooglyPuffTests: XCTestCase {
+class HalfTunesFakeTests1: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

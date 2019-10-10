@@ -1,0 +1,10 @@
+https://www.raywenderlich.com/2102-intermediate-design-patterns-in-swift
+
+In this tutorial, you’ll learn to use design patterns in Swift to refactor a game called Tap the Larger Shape.
+
+Design Pattern: Abstract Factory
+Design Pattern: Servant
+Design Pattern: Builder
+Design Pattern: Dependency Injection
+Design Pattern: Strategy
+Design Patterns: Chain of Responsibility, Command and Iterator

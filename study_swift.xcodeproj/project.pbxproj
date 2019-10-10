@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8B6C64C6234EC6A200920422 /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64C5234EC6A200920422 /* OperationQueueViewController.swift */; };
+		8B6C64C8234ECAE000920422 /* ThreadTest01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64C7234ECAE000920422 /* ThreadTest01ViewController.swift */; };
+		8B6C64F2234ECE5C00920422 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64E5234ECE5C00920422 /* Turn.swift */; };
+		8B6C64F3234ECE5C00920422 /* Scorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64E6234ECE5C00920422 /* Scorer.swift */; };
+		8B6C64F4234ECE5C00920422 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64E7234ECE5C00920422 /* GameView.swift */; };
+		8B6C64F5234ECE5C00920422 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64E8234ECE5C00920422 /* ShapeView.swift */; };
+		8B6C64F6234ECE5C00920422 /* ShapeViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64E9234ECE5C00920422 /* ShapeViewBuilder.swift */; };
+		8B6C64F7234ECE5C00920422 /* RaywenderlichUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64EA234ECE5C00920422 /* RaywenderlichUtils.swift */; };
+		8B6C64F8234ECE5C00920422 /* TurnStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64EB234ECE5C00920422 /* TurnStrategy.swift */; };
+		8B6C64F9234ECE5C00920422 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64EC234ECE5C00920422 /* GameViewController.swift */; };
+		8B6C64FA234ECE5C00920422 /* TrunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64ED234ECE5C00920422 /* TrunController.swift */; };
+		8B6C64FB234ECE5C00920422 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64EE234ECE5C00920422 /* Shape.swift */; };
+		8B6C64FC234ECE5C00920422 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64EF234ECE5C00920422 /* ShapeFactory.swift */; };
+		8B6C64FD234ECE5C00920422 /* ShapeViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64F0234ECE5C00920422 /* ShapeViewFactory.swift */; };
+		8B6C64FE234ECE5C00920422 /* DesignPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C64F1234ECE5C00920422 /* DesignPattern.storyboard */; };
+		8B6C6500234ECE7200920422 /* raywenderlich in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C64FF234ECE7200920422 /* raywenderlich */; };
 		DB0601102348A6AF00870186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06010F2348A6AF00870186 /* AppDelegate.swift */; };
 		DB0601152348A6AF00870186 /* ARC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601132348A6AF00870186 /* ARC.storyboard */; };
 		DB0601172348A6B100870186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0601162348A6B100870186 /* Assets.xcassets */; };
@@ -76,6 +91,21 @@
 
 /* Begin PBXFileReference section */
 		8B6C64C5234EC6A200920422 /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
+		8B6C64C7234ECAE000920422 /* ThreadTest01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTest01ViewController.swift; sourceTree = "<group>"; };
+		8B6C64E5234ECE5C00920422 /* Turn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		8B6C64E6234ECE5C00920422 /* Scorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorer.swift; sourceTree = "<group>"; };
+		8B6C64E7234ECE5C00920422 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8B6C64E8234ECE5C00920422 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		8B6C64E9234ECE5C00920422 /* ShapeViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeViewBuilder.swift; sourceTree = "<group>"; };
+		8B6C64EA234ECE5C00920422 /* RaywenderlichUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaywenderlichUtils.swift; sourceTree = "<group>"; };
+		8B6C64EB234ECE5C00920422 /* TurnStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnStrategy.swift; sourceTree = "<group>"; };
+		8B6C64EC234ECE5C00920422 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8B6C64ED234ECE5C00920422 /* TrunController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrunController.swift; sourceTree = "<group>"; };
+		8B6C64EE234ECE5C00920422 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		8B6C64EF234ECE5C00920422 /* ShapeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
+		8B6C64F0234ECE5C00920422 /* ShapeViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeViewFactory.swift; sourceTree = "<group>"; };
+		8B6C64F1234ECE5C00920422 /* DesignPattern.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DesignPattern.storyboard; sourceTree = "<group>"; };
+		8B6C64FF234ECE7200920422 /* raywenderlich */ = {isa = PBXFileReference; lastKnownFileType = text; path = raywenderlich; sourceTree = "<group>"; };
 		DB06010C2348A6AF00870186 /* study_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB06010F2348A6AF00870186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB0601142348A6AF00870186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ARC.storyboard; sourceTree = "<group>"; };
@@ -161,6 +191,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B6C64C9234ECD3B00920422 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				8B6C64E4234ECE5C00920422 /* Intermediate Design Patterns in Swift */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		8B6C64E4234ECE5C00920422 /* Intermediate Design Patterns in Swift */ = {
+			isa = PBXGroup;
+			children = (
+				8B6C64E5234ECE5C00920422 /* Turn.swift */,
+				8B6C64E6234ECE5C00920422 /* Scorer.swift */,
+				8B6C64E7234ECE5C00920422 /* GameView.swift */,
+				8B6C64E8234ECE5C00920422 /* ShapeView.swift */,
+				8B6C64E9234ECE5C00920422 /* ShapeViewBuilder.swift */,
+				8B6C64EA234ECE5C00920422 /* RaywenderlichUtils.swift */,
+				8B6C64EB234ECE5C00920422 /* TurnStrategy.swift */,
+				8B6C64EC234ECE5C00920422 /* GameViewController.swift */,
+				8B6C64ED234ECE5C00920422 /* TrunController.swift */,
+				8B6C64EE234ECE5C00920422 /* Shape.swift */,
+				8B6C64EF234ECE5C00920422 /* ShapeFactory.swift */,
+				8B6C64F0234ECE5C00920422 /* ShapeViewFactory.swift */,
+				8B6C64F1234ECE5C00920422 /* DesignPattern.storyboard */,
+				8B6C64FF234ECE7200920422 /* raywenderlich */,
+			);
+			path = "Intermediate Design Patterns in Swift";
+			sourceTree = "<group>";
+		};
 		DB0601032348A6AF00870186 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				DB06010F2348A6AF00870186 /* AppDelegate.swift */,
+				8B6C64C9234ECD3B00920422 /* DesignPattern */,
 				DB790AF9234D8FC300FA8D86 /* UnitTesting */,
 				DB06012E2349B4F000870186 /* GCD */,
 				DB0601212348C99700870186 /* ARC */,
@@ -208,10 +268,11 @@
 		DB06012E2349B4F000870186 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				DB0601312349B51100870186 /* GCD.storyboard */,
 				DB0601872349D77F00870186 /* GooglyPuff */,
 				DB06012F2349B50200870186 /* ExampleGCD01VC.swift */,
-				DB0601312349B51100870186 /* GCD.storyboard */,
 				8B6C64C5234EC6A200920422 /* OperationQueueViewController.swift */,
+				8B6C64C7234ECAE000920422 /* ThreadTest01ViewController.swift */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -460,9 +521,11 @@
 			files = (
 				DB790B05234D905E00FA8D86 /* BullsEyeGame.storyboard in Resources */,
 				DB06011A2348A6B100870186 /* LaunchScreen.storyboard in Resources */,
+				8B6C64FE234ECE5C00920422 /* DesignPattern.storyboard in Resources */,
 				DB790B2A234D976D00FA8D86 /* HalfTunes.storyboard in Resources */,
 				DB0601172348A6B100870186 /* Assets.xcassets in Resources */,
 				DB0601152348A6AF00870186 /* ARC.storyboard in Resources */,
+				8B6C6500234ECE7200920422 /* raywenderlich in Resources */,
 				DB790BC9234E33A200FA8D86 /* abbaData.json in Resources */,
 				DB0601892349D7A700870186 /* GooglyPuff.storyboard in Resources */,
 				DB0601322349B51100870186 /* GCD.storyboard in Resources */,
@@ -502,28 +565,41 @@
 				DB790B28234D976D00FA8D86 /* Track.swift in Sources */,
 				DB0601102348A6AF00870186 /* AppDelegate.swift in Sources */,
 				DB06019F2349D80D00870186 /* AssetsCollectionViewController.swift in Sources */,
+				8B6C64F9234ECE5C00920422 /* GameViewController.swift in Sources */,
 				DB0601302349B50200870186 /* ExampleGCD01VC.swift in Sources */,
 				DB06012D2348E75600870186 /* ExampleARC03VC.swift in Sources */,
+				8B6C64C8234ECAE000920422 /* ThreadTest01ViewController.swift in Sources */,
+				8B6C64F3234ECE5C00920422 /* Scorer.swift in Sources */,
+				8B6C64FA234ECE5C00920422 /* TrunController.swift in Sources */,
 				DB790B25234D976D00FA8D86 /* TrackCell.swift in Sources */,
 				DB0601A62349D80D00870186 /* AssetCollectionViewCell.swift in Sources */,
 				DB06019D2349D80D00870186 /* UIImage+Resize.swift in Sources */,
 				DB06019C2349D80D00870186 /* PhotoManager.swift in Sources */,
 				DB790B03234D903900FA8D86 /* BullsEyeGame.swift in Sources */,
+				8B6C64F6234ECE5C00920422 /* ShapeViewBuilder.swift in Sources */,
 				DB06019B2349D80D00870186 /* CheckMark.swift in Sources */,
+				8B6C64FB234ECE5C00920422 /* Shape.swift in Sources */,
 				DB0601A72349D80D00870186 /* AssetPickerDelegate.swift in Sources */,
+				8B6C64F2234ECE5C00920422 /* Turn.swift in Sources */,
 				DB790B02234D903900FA8D86 /* BullsEyeGameViewController.swift in Sources */,
+				8B6C64FC234ECE5C00920422 /* ShapeFactory.swift in Sources */,
 				8B6C64C6234EC6A200920422 /* OperationQueueViewController.swift in Sources */,
+				8B6C64F7234ECE5C00920422 /* RaywenderlichUtils.swift in Sources */,
 				DB790B26234D976D00FA8D86 /* HalfTunesSearchViewController.swift in Sources */,
 				DB790B27234D976D00FA8D86 /* DHURLSessionMock.swift in Sources */,
 				DB0601A12349D80D00870186 /* SelectedAssets.swift in Sources */,
 				DB06019A2349D80D00870186 /* PhotoDetailViewController.swift in Sources */,
+				8B6C64F5234ECE5C00920422 /* ShapeView.swift in Sources */,
+				8B6C64FD234ECE5C00920422 /* ShapeViewFactory.swift in Sources */,
 				DB0601A32349D80D00870186 /* PhotoCollectionViewController.swift in Sources */,
 				DB06019E2349D80D00870186 /* Photo.swift in Sources */,
+				8B6C64F8234ECE5C00920422 /* TurnStrategy.swift in Sources */,
 				DB0601A52349D80D00870186 /* AlbumsTableViewController.swift in Sources */,
 				DB0601A42349D80D00870186 /* UIImage+Alpha.swift in Sources */,
 				DB06012B2348E75600870186 /* ExampleARC01VC.swift in Sources */,
 				DB06012C2348E75600870186 /* ExampleARC02VC.swift in Sources */,
 				DB0601992349D80D00870186 /* PhotoCollectionViewCell.swift in Sources */,
+				8B6C64F4234ECE5C00920422 /* GameView.swift in Sources */,
 				DB790B29234D976D00FA8D86 /* Download.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

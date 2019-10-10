@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B6C64C6234EC6A200920422 /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C64C5234EC6A200920422 /* OperationQueueViewController.swift */; };
 		DB0601102348A6AF00870186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06010F2348A6AF00870186 /* AppDelegate.swift */; };
 		DB0601152348A6AF00870186 /* ARC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0601132348A6AF00870186 /* ARC.storyboard */; };
 		DB0601172348A6B100870186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0601162348A6B100870186 /* Assets.xcassets */; };
@@ -74,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B6C64C5234EC6A200920422 /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
 		DB06010C2348A6AF00870186 /* study_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB06010F2348A6AF00870186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB0601142348A6AF00870186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ARC.storyboard; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 				DB0601872349D77F00870186 /* GooglyPuff */,
 				DB06012F2349B50200870186 /* ExampleGCD01VC.swift */,
 				DB0601312349B51100870186 /* GCD.storyboard */,
+				8B6C64C5234EC6A200920422 /* OperationQueueViewController.swift */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -509,6 +512,7 @@
 				DB06019B2349D80D00870186 /* CheckMark.swift in Sources */,
 				DB0601A72349D80D00870186 /* AssetPickerDelegate.swift in Sources */,
 				DB790B02234D903900FA8D86 /* BullsEyeGameViewController.swift in Sources */,
+				8B6C64C6234EC6A200920422 /* OperationQueueViewController.swift in Sources */,
 				DB790B26234D976D00FA8D86 /* HalfTunesSearchViewController.swift in Sources */,
 				DB790B27234D976D00FA8D86 /* DHURLSessionMock.swift in Sources */,
 				DB0601A12349D80D00870186 /* SelectedAssets.swift in Sources */,
